@@ -34,10 +34,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::advLixBeregner.Properties.Resources.tabel;
+            this.pictureBox1.Image = global::advLixBeregner.Properties.Resources.tabel2;
             this.pictureBox1.Location = new System.Drawing.Point(-2, -3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(748, 367);
+            this.pictureBox1.Size = new System.Drawing.Size(627, 291);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(706, 345);
+            this.ClientSize = new System.Drawing.Size(623, 285);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
