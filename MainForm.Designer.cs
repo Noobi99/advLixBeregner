@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.rtbText = new System.Windows.Forms.RichTextBox();
             this.ofdPDF = new System.Windows.Forms.OpenFileDialog();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -41,6 +40,7 @@
             this.dtpScheDate = new System.Windows.Forms.DateTimePicker();
             this.lstSche = new System.Windows.Forms.ListBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -62,15 +62,13 @@
             this.lblPages = new System.Windows.Forms.Label();
             this.lblLevel = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tmrAnalyse = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage3.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.pnlSchedule.SuspendLayout();
             this.tabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // rtbText
@@ -186,6 +184,15 @@
             this.tabPage2.Size = new System.Drawing.Size(665, 124);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Bag beregningen";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::advLixBeregner.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(472, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(160, 79);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
             // 
             // label7
             // 
@@ -403,15 +410,6 @@
             this.tabControl1.Size = new System.Drawing.Size(673, 150);
             this.tabControl1.TabIndex = 12;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::advLixBeregner.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(472, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(160, 79);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -427,6 +425,7 @@
             this.tabPage3.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tabPage1.ResumeLayout(false);
@@ -434,7 +433,6 @@
             this.pnlSchedule.ResumeLayout(false);
             this.pnlSchedule.PerformLayout();
             this.tabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -467,7 +465,6 @@
         private System.Windows.Forms.DateTimePicker dtpScheDate;
         private System.Windows.Forms.LinkLabel lblAddSche;
         private System.Windows.Forms.DateTimePicker dtpScheTime;
-        private System.Windows.Forms.Timer tmrAnalyse;
         private System.Windows.Forms.TextBox txtLix;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
